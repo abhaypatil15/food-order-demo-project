@@ -1,0 +1,374 @@
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #0e0d0d;
+    
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.main-header {
+    background-color: rgba(13, 13, 13, 0.6);
+    background-image: url("Images/Header Background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 3em;
+}
+
+.content-section {
+    margin: 1em;
+    align-items: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    /* border: 2px solid #2D9CDB; */
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #111415;
+    border: none;
+    font-weight: bold;
+}
+
+/* .btn-primary:hover {
+    background-color: #2D9CDB;
+} */
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+    width: 11%;
+    font-weight: bold;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.shop-item {
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    background-color: rgb(186, 210, 234);
+}
+
+.shop-item > div {
+    /* background-color: rgb(163, 199, 235); */
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+.shop-item-image {
+    height: 110px;
+    width: 150px;
+}
+
+.shop-item-details {
+    display: grid;
+    align-items: center;
+    margin-left: 5px;            }
+
+
+
+.shop-items {
+    background-color: rgb(163, 199, 235);
+
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid black; */
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 50%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 70px;
+    border-radius: 5px;
+    /* border: 1px solid #56CCF2; */
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+  
+}
+.cart-quantity-input input {
+    width: 40px;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background: #0052cc;
+    color: #fff;
+    appearance: none;
+}
+.cart-quantity-input span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #0052cc;
+    user-select: none;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+        
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    align-items: center;
+    background-color: #62371b;
+    margin: 40px auto 80px auto;
+    font-size: 0.85em;
+}
+
+
+.flex_contnar{
+    display: flex;
+    background-color: rgb(186, 210, 234);
+}
+.flex_contnar > div {
+    background-color: rgb(163, 199, 235);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.shop-item-title{
+    font-size: 20px;
+    color: black;
+}
+.shop-item-price {
+    font-size: 17px;
+    color: black;
+}
+/* quantity button */
+ .cart-quantity-input {
+    height: 34px;
+    width: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.cart-quantity-input input {
+   
+    border: 0;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: center;
+    background: #0052cc;
+    color: #fff;
+    appearance: none;
+    outline: 0;
+}
+.cart-quantity-input span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #0052cc;
+    user-select: none;
+} */
+.cart-item-contaner{
+    display: grid;
+    border-bottom: 1px solid black;
+
+}
+#titel-id{
+    font-size: 20px;
+}
+/* #cart-item-contaner{
+    border-top: 1px solid black;
+} */
+.cart-column-contaner{
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid black; */
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+}
+.section-header{
+    align-items: center;
+}

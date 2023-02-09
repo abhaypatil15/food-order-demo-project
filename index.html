@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food app</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="../foodorderApp/styleSheet.css" />
+    </head>
+    <body>
+        <header class="main-header">
+            <h1 class="band-name band-name-large">Food Order App</h1>
+        </header>
+        <div class="flex_contnar">
+        <section class="container content-section">
+            <div class="shop-items">
+                <div class="shop-item">
+                    <div class="shop-item-image-div">
+                        <a target="_blank" href="../foodorderApp/assets/burger.jpg">
+                            <img class="shop-item-image" src="../foodorderApp/assets/burger.jpg" alt="Mountains" width="350" height="250">
+                          </a>  
+                    </div>                    
+                      <div class="shop-item-details">
+                        <span class="shop-item-title">burger</span>
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <div class="shop-item-image-div">
+                        <a target="_blank" href="../foodorderApp/assets/pizza.jpg">
+                            <img class="shop-item-image" src="../foodorderApp/assets/pizza.jpg" alt="Mountains" width="350" height="250">
+                          </a>
+                    </div>
+                  
+                    <div class="shop-item-details">
+                        <span class="shop-item-title">pizza</span>
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <div class="shop-item-image-div">
+                        <a target="_blank" href="../foodorderApp/assets/checken.jpg">
+                        <img class="shop-item-image" src="../foodorderApp/assets/checken.jpg" alt="Mountains" width="v" height="250">
+                      </a></div>
+                    <div class="shop-item-details">
+                        <span class="shop-item-title">checken</span>
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <div class="shop-item-image-div">
+                        <a target="_blank" href="../foodorderApp/assets/cake-1971552__480.jpg">
+                            <img class="shop-item-image" src="../foodorderApp/assets/cake-1971552__480.jpg" alt="Mountains" width="350" height="250">
+                          </a> 
+                    </div>
+                                   
+                      <div class="shop-item-details">
+                        <span class="shop-item-title">cake</span>
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">   
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">IMAGE</span>
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div> 
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$00.00</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        </div>
+    </body>
+
+   <script src="../foodorderApp/food_app.js"></script>
+</html>
